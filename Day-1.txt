@@ -1,0 +1,302 @@
+Classe Notes on Angular by Mr.Prasad @15hr00 p/m
+******************************************************************
+Day-1: 23-April-2025
+**********************
+1. Course Requirements: HTML,CSS,JS(Bootstrap)
+2. Course Duration: 26-30 sessions 
+3. Class Timing : 15hr00 to 17hr00 PM 
+4. Structure: 
+             1. JavaScript Essential ( modules,OOp, Function, map, filter, object destructure,rest and spread, fetch, promise, async await) 
+			 2. Typescript 
+			 3. Introduction of Angular 
+			 4. Components 
+			 5. Data Binding ( one way and two way) 
+			 6. Directives 
+			 7. Pipes 
+			 8. Services 
+			 9. Angular 19 
+			 10. Forms 
+			 11. RxJS 
+			 12. Real Time Project (0TT)
+			 
+Tools:
+          1. Git and Github 
+		  2. VS Code 
+		  3. Netlify 
+		  4. Firebase 
+
+1. What is Angular?
+         Angular is a JavaScript Framework developed by Google 
+		 It provide complete environment to developers 
+		 Angular is used to create single page application  and progressive  web apps
+		 Framework provide a complete solution developer needs from UI to Testing 
+		 Framework also provide structure to the languages to simplify codebases 
+
+2. What is the difference between React and Angular?
+       Angular is a framework and React is a library
+       Angular is developed by Google and React is developed by meta 
+       Angular provide more structure format and React provides more customised format
+       Angular provides two way data comunication and React provides one way data communication.
+ 	  
+3. What is the difference between Angular and Angular JS?
+     In 2010, Google Released Angular JS which is based on JS  but JS is dynamic typed language
+	 In 2012, Microsoft Launched Typescript ( Static data typing to JS) so, Google released new Angular as Angular 2 Which is based on Angular JS+Ts.
+	 Angular 2 also called Angular or Angular +
+
+Day-2 : 24-April-2025
+***********************
+JavaScript Basics: 
+******************
+1. What is the difference between Let,Var and Const?
+     Var is a function scoped and let and const are block.
+	 Var can be accessed before declaration and var can be reclared, let and const can't be accessed before and redeclared .
+	 Let can change but const cannot 
+           function fun(){        
+              if(true) 
+			  {
+			    console.log(a) 
+				 var a= 10 ; let b =10; const c =10
+				  var a=10; b=20;
+				  }
+			  console.log(a) 
+			} 
+			func() 
+				  
+2. What are the primitive data types of JavaScript and JS is statically typed or dynamically typed 
+     number, string ,boolean ,undefined, null. js is dynamically typed
+	  25.36    'raj',"raj", raj, true, undefined,null 
+
+3. What is the difference between == and ===?
+     == --compares values === compares typed
+	 
+4. Write a function which accepts two parameters and returns their sum 
+           function add(a,b) 
+		       {
+			     return a+b 
+			  }
+			  add(3,4) 
+	      ---------------------------
+		  const add =(a,b) => a+b;
+		  add(3,4) 
+
+5. What is a class and what is an object in JavaScript?
+          class Bike{
+		     name; speed;color;milage,model;
+			 work()
+		   }
+		   Let x = new Bike() 
+
+6.What is one function that default called in class?
+       constructor 
+	   class student 
+	   {
+	     name;rno;marks;
+		   constructor(a,b,c){
+		   this.name=a;
+		   this.rno=b;
+		   this.marks=c; 
+		  }
+		}
+	  let x = new Student ("raj",25,98) 
+	   console.log(${X.name} got $(x.marks} ) 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://drive.google.com/drive/folders/1-aEOVIldzAVzqEvcRbXuwJ1OruZpj-cG
+
+https://drive.google.com/drive/folders/1Ol_SH_1AKlVqIXAYc5Hu9FZF1FNCVCAb
