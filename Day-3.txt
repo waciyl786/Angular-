@@ -1,0 +1,27 @@
+Classe Notes on Angular by Mr.Prasad@15hr00
+
+Day-3 : 26-April-2025 
+
+Typescript : 
+-  It provides static data typing to JavaScript 
+ - Js provides dynamic typing It means in JS, the datatype decided by the value the variables contains 
+
+      let  a=10;  //number 
+            a ="raj"  // String 
+           a = true  // boolean 
+
+ In 2012, Microsoft Launched Typescript to solve problem of JS dynamic typing 
+Typescript is a superset of Javascript 
+Browser cannot understand TS so tsc(typescript compiler) converts TS into JS 
+
+To practice Typescript, Visit official website:
+ https://www.typescriptlang.org/
+
+Data Types Declaration:
+  There are two ways to declare datatypes in Typescript:
+1. Type Inference:
+    It means datatype automatically understands by TS based on the value on first time 
+
+2. Type annotation: 
+     Using this we can provide datatypes to any variables after colon.
+           Example: Let a: datatype = value; 
