@@ -1,0 +1,57 @@
+Classe Notes on Angular by Mr.Prasad @15hr00
+
+Day-2: 24-April-2025 
+
+JavaScript Basics: 
+
+1. What is the difference between Let,Var and Const?
+     Var is a function scoped and let and const are block.
+     Var can be accessed before declaration and var can be reclared, let and const can't be accessed before and redeclared .
+      Let can change but const cannot 
+       
+      function fun(){        
+              if(true) 
+          {
+              console.log(a) 
+             var a= 10 ; let b =10; const c =10
+             var a=10; b=20;
+           }
+              console.log(a) 
+            } 
+             func()     
+
+2.. What are the primitive data types of JavaScript and JS is statically typed or dynamically typed 
+     number, string ,boolean ,undefined, null. js is dynamically typed
+        25.36    'raj',"raj", raj, true, undefined,null 
+
+
+4. Write a function which accepts two parameters and returns their sum 
+       function add(a,b) 
+      {
+          return a+b 
+          }
+           add(3,4) 
+---------------------------
+  const add =(a,b) => a+b;
+            add(3,4) 
+
+5. What is a class and what is an object in JavaScript?
+          class Bike{
+            name; speed;color;milage,model;
+             work()
+             }
+              Let x = new Bike() 
+
+6.What is one function that default called in class?
+       constructor 
+       class student 
+       {
+         name;rno;marks;
+         constructor(a,b,c){
+           this.name=a;
+               this.rno=b;
+          this.marks=c; 
+        }
+          }
+        let x = new Student ("raj",25,98) 
+          console.log(${X.name} got $(x.marks} ) 
